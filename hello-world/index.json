@@ -13,7 +13,7 @@
       "credits": ""
     },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "apache-maven-3.5.0-bin.tar.gz",
           "target": "~/"
