@@ -1,11 +1,11 @@
 {
-  "title": "Resteasy Hello World",
-  "description": "Introduction to Resteasy",
+  "title": "Hello World Scenario",
+  "description": "Your First Scenario",
   "difficulty": "beginner",
-  "time": "10 minutes",
+  "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Build the War",
+      "title": "Step 1 - Run Command",
       "text": "step1.md"
     }],
     "intro": {
@@ -18,9 +18,9 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "java8"
+    "imageid": "bash"
   }
 }
