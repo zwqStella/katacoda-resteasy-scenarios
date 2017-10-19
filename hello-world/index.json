@@ -12,18 +12,6 @@
       "text": "intro.md",
       "credits": ""
     },
-    "assets": {
-      "host01": [
-        {
-          "file": "apache-maven-3.5.0-bin.tar.gz",
-          "target": "~/"
-        },
-        {
-          "file": "jetty-distribution-9.4.7.v20170914.tar.gz",
-          "target": "~/"
-        }
-      ]
-    },
     "finish": {
       "text": "finish.md"
     }
@@ -33,6 +21,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "java8"
   }
 }
