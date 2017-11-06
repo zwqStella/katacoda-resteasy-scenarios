@@ -22,5 +22,5 @@ RESTEasy can run in any Servlet container, but tighter integration with WildFly 
 * Digital Signature and encryption support with S/MIME and DOSETA
 * EJB, Seam, Guice, Spring, Spring MVC and Spring Boot integration
 
-### ABout this scenario
+### About This Scenario
 This scenario is created to teach people how to establish a simple JAX-RS web app using Resteasy

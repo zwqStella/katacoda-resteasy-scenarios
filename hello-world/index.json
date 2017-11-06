@@ -9,6 +9,20 @@
       "text": "intro.md",
       "courseData": "init.sh"
     },
+    "assets": {
+        "client": [
+          {
+            "file": "zoo",
+            "target": "~/"
+          }
+        ],
+        "host01": [
+          {
+            "file": "zoo",
+            "target": "~/"
+          }
+        ]
+    }
     "finish": {
       "text": "finish.md"
     }
