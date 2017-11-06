@@ -2,7 +2,7 @@ cd ~
 
 #install git
 wget https://github.com/git/git/archive/v2.14.0.tar.gz
-tar -xzf git-2.14.0.tar.gz
+tar -xzf v2.14.0.tar.gz
 cd git-2.14.0
 make configure
 ./configure --prefix=/usr
