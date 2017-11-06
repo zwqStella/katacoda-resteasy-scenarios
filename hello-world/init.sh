@@ -10,5 +10,6 @@ cd wildfly-11.0.0.Final/bin
 
 #prepare source code
 cd ~/tutorial
-unzip zoo.zip
+ls
+#unzip zoo.zip
 #rm -f zoo.zip

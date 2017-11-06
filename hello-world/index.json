@@ -12,11 +12,11 @@
     "assets": {
 	"client": [
           {
-            "file": "zoo.zip",
+            "file": "test",
             "target": "~/"
           },
           {
-            "file": "test",
+            "file": "zoo.zip",
             "target": "~/"
           }
         ]
