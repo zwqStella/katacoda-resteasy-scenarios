@@ -8,12 +8,11 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 mvn -version
 
-#install jetty
-echo "jetty installing..."
-tar -xzf jetty-distribution-9.4.7.v20170914.tar.gz
-cd jetty-distribution-9.4.7.v20170914
-
-java -jar start.jar
+#install wildfly
+echo "wildfly installing..."
+tar -xzf wildfly-11.0.0.Final.tar.gz
+cd wildfly-11.0.0.Final/bin
+./standalone.sh &
 
 #get the example
 tar -xzf example.tar.gz
