@@ -10,6 +10,6 @@ cd wildfly-11.0.0.Final/bin
 
 #prepare source code
 cd ~/tutorial
-ls
-#unzip zoo.zip
-#rm -f zoo.zip
+wget https://github.com/zwqStella/Resteasy-example-zoo/raw/master/zoo.zip
+unzip zoo.zip
+rm -f zoo.zip

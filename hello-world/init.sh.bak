@@ -33,4 +33,5 @@ sudo make install install-doc install-html install-info
 cd ~
 
 #get the example
+cd ~/tutorial
 git clone https://github.com/zwqStella/Resteasy-example-zoo
