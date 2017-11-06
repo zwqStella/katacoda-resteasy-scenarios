@@ -3,7 +3,7 @@
   "description": "Learning how to establish a web app using Resteasy API",
   "details": {
     "steps": [
-      { "title": "The Structure of Package", "text": "step1.md" },
+      { "title": "The Structure of Package", "text": "step1.md" }
     ],
     "intro": {
       "text": "intro.md",
