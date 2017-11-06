@@ -1,5 +1,8 @@
 cd ~
 
+#install git
+apt-get install git
+
 #get the example
 git clone https://github.com/zwqStella/Resteasy-example-zoo
 
