@@ -14,14 +14,12 @@
           {
             "file": "test",
             "target": "~/"
+          },
+          {
+            "file": "zoo.tar.gz",
+            "target": "~/"
           }
-        ],
-	"host01": [
-	  {
-	    "file": "zoo.tar.gz",
-	    "target": "~/"
-	  }
-	]
+        ]
     },
     "files": [
 	"test"
