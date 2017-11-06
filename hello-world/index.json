@@ -12,7 +12,7 @@
     "assets": {
 	"client": [
           {
-            "file": "*",
+            "file": "zoo/*",
             "target": "~/"
           }
         ]
