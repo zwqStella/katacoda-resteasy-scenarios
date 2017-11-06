@@ -12,14 +12,11 @@
     "assets": {
 	"client": [
           {
-            "file": "zoo/*",
+            "file": "*",
             "target": "~/"
           }
         ]
     },
-    "files": [
-	"~/zoo/pom.xml"
-    ],
     "finish": {
       "text": "finish.md"
     }
