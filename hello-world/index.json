@@ -14,10 +14,6 @@
           {
             "file": "test",
             "target": "~/"
-          },
-          {
-            "file": "zoo/pom.xml",
-            "target": "~/zoo"
           }
         ]
     },

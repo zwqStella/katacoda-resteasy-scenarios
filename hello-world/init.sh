@@ -8,4 +8,5 @@ rm -f wildfly-11.0.0.Final.tar.gz
 cd wildfly-11.0.0.Final/bin
 #./standalone.sh &
 
-cd ~
+cd ~/tutorial
+touch aaa
