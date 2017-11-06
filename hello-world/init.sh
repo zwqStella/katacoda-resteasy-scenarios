@@ -8,5 +8,7 @@ rm -f wildfly-11.0.0.Final.tar.gz
 cd wildfly-11.0.0.Final/bin
 #./standalone.sh &
 
+#prepare source code
 cd ~/tutorial
-touch aaa
+tar -xzf zoo.tar.gz
+rm -f zoo.tar.gz

@@ -12,7 +12,7 @@
     "assets": {
 	"client": [
           {
-            "file": "test",
+            "file": "zoo.tar.gz",
             "target": "~/"
           }
         ]
