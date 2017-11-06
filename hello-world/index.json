@@ -1,9 +1,9 @@
 {
-  "title": "My First Scenario",
-  "description": "Learning how to educate via Katacoda",
+  "title": "My First JAX-RS application using Resteasy",
+  "description": "Learning how to establish a web app using Resteasy API",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md" },
+      { "title": "The Structure of Package", "text": "step1.md" },
     ],
     "intro": {
       "text": "intro.md",
@@ -14,9 +14,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "java8"
   }
 }
