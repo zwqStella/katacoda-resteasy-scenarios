@@ -12,7 +12,11 @@
     "assets": {
 	"client": [
           {
-            "file": "*",
+            "file": "test",
+            "target": "~/"
+          },
+          {
+            "file": "zoo/pom.xml",
             "target": "~/"
           }
         ]
