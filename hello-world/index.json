@@ -9,18 +9,6 @@
       "text": "intro.md",
       "code": "init.sh"
     },
-    "assets": {
-	"client": [
-          {
-            "file": "test",
-            "target": "~/"
-          },
-          {
-            "file": "test.zip",
-            "target": "~/"
-          }
-        ]
-    },
     "finish": {
       "text": "finish.md"
     }
