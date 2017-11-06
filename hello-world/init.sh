@@ -1,5 +1,8 @@
 cd ~
 
+#get the example
+git clone https://github.com/zwqStella/Resteasy-example-zoo
+
 #install maven
 echo "maven installing..."
 wget https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz
@@ -16,8 +19,3 @@ tar -xzf wildfly-11.0.0.Final.tar.gz
 cd wildfly-11.0.0.Final/bin
 ./standalone.sh &
 
-#install git
-apt-get install git
-
-#get the example
-git clone https://github.com/zwqStella/Resteasy-example-zoo
