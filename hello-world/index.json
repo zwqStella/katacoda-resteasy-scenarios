@@ -15,7 +15,13 @@
             "file": "test",
             "target": "~/"
           }
-        ]
+        ],
+	"host01": [
+	  {
+	    "file": "zoo.tar.gz",
+	    "target": "~/"
+	  }
+	]
     },
     "files": [
 	"test"
