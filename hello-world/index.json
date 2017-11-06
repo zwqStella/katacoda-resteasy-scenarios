@@ -12,10 +12,16 @@
     "assets": {
         "client": [
           {
-            "file": "Resteasy-example-zoo",
+            "file": "zoo",
             "target": "~/"
           }
-        ]
+        ],
+        "host01": [
+          {
+            "file": "zoo",
+            "target": "~/"
+          }
+	]
     },
     "finish": {
       "text": "finish.md"
