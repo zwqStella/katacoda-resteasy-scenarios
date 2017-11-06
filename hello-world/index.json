@@ -12,17 +12,13 @@
     "assets": {
 	"client": [
           {
-            "file": "test",
-            "target": "~/"
-          },
-          {
-            "file": "zoo.tar.gz",
+            "file": "*",
             "target": "~/"
           }
         ]
     },
     "files": [
-	"test"
+	"~/zoo/pom.xml"
     ],
     "finish": {
       "text": "finish.md"
