@@ -14,10 +14,6 @@
           {
             "file": "test",
             "target": "~/"
-          },
-          {
-            "file": "zoo.zip",
-            "target": "~/"
           }
         ]
     },
