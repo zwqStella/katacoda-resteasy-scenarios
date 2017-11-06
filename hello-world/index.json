@@ -12,24 +12,10 @@
     "assets": {
 	"client": [
           {
-            "file": "a/test",
-            "target": "~/a/"
-          },
-          {
-            "file": "b/test",
-            "target": "~/b/"
+            "file": "test",
+            "target": "~/"
           }
-        ],
-        "host01": [
-          {
-            "file": "a/test",
-            "target": "~/a/"
-          },
-          {
-            "file": "b/test",
-            "target": "~/b/"
-          }
-	]
+        ]
     },
     "finish": {
       "text": "finish.md"
