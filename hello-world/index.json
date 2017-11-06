@@ -10,12 +10,6 @@
       "code": "init.sh"
     },
     "assets": {
-        "client": [
-          {
-            "file": "test",
-            "target": "~/"
-          }
-        ],
         "host01": [
           {
             "file": "test",
