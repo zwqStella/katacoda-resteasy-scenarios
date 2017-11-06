@@ -12,14 +12,22 @@
     "assets": {
 	"client": [
           {
-            "file": "test",
-            "target": "~/"
+            "file": "a/test",
+            "target": "~/a/"
+          },
+          {
+            "file": "b/test",
+            "target": "~/b/"
           }
         ],
         "host01": [
           {
-            "file": "test",
-            "target": "~/"
+            "file": "a/test",
+            "target": "~/a/"
+          },
+          {
+            "file": "b/test",
+            "target": "~/b/"
           }
 	]
     },
