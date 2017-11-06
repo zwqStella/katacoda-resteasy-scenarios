@@ -12,7 +12,7 @@
     "assets": {
         "client": [
           {
-            "file": "zoo",
+            "file": "init.sh",
             "target": "~/"
           }
         ],
