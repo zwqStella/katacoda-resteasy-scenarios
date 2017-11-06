@@ -12,13 +12,13 @@
     "assets": {
         "client": [
           {
-            "file": "zoo",
+            "file": "test",
             "target": "~/"
           }
         ],
         "host01": [
           {
-            "file": "zoo",
+            "file": "test",
             "target": "~/"
           }
 	]
