@@ -10,5 +10,7 @@ echo "wildfly installing..."
 wget http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.tar.gz
 tar -xzf wildfly-11.0.0.Final.tar.gz
 rm -f wildfly-11.0.0.Final.tar.gz
-cd wildfly-11.0.0.Final/bin
-#./standalone.sh &
+export WILDFLY=~/wildfly-11.0.0.Final/bin
+export PATH=$WILDFLY:$PATH
+
+cd ~/tutorial/zoo
