@@ -3,11 +3,11 @@
   "description": "Learning how to establish a web app using Resteasy API",
   "details": {
     "steps": [
-      { "title": "The Structure of Package", "text": "step1.md" },
-      { "title": "Deploy an Example", "text": "step2.md" },
-      { "title": "Create Your Own Codes", "text": "step3.md" },
-      { "title": "Run Client", "text": "step4.md" },
-      { "title": "Improve It", "text": "step5.md" }
+      { "title": "Introduction to Resteasy", "text": "step1.md" },
+      { "title": "Server Code", "text": "step2.md" },
+      { "title": "Deploy an Application", "text": "step3.md" },
+      { "title": "Client Code", "text": "step4.md" },
+      { "title": "Try the Client", "text": "step5.md" }
     ],
     "intro": {
       "text": "intro.md",
