@@ -4,7 +4,7 @@ Java API for RESTful Web Services (JAX-RS) is a Java programming language API sp
 
 What we need includes: 
 * Java 
-* Maven
+* Maven (3.0.4 or higher)
 * Web Container
 * Resteasy
 
