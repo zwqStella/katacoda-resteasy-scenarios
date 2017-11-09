@@ -1,11 +1,11 @@
 #prepare source code
 cd ~/tutorial
 wget https://github.com/zwqStella/Resteasy-example-zoo/raw/master/zoo.zip
-unzip zoo.zip
+unzip -q -d server zoo.zip
 rm -f zoo.zip
 wget https://github.com/zwqStella/Resteasy-example-client/raw/master/client.zip
-unzip client.zip
-rem -f client.zip
+unzip -q -d client client.zip
+rm -f client.zip
 
 #install wildfly
 cd ~
