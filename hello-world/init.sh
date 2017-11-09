@@ -7,16 +7,6 @@ wget https://github.com/zwqStella/Resteasy-example-client/raw/master/client.zip
 unzip -q -d client client.zip
 rm -f client.zip
 
-#install maven
-echo "maven installing..."
-wget https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz
-tar -xzf apache-maven-3.5.0-bin.tar.gz
-rm -f apache-maven-3.5.0-bin.tar.gz
-export M2_HOME=~/apache-maven-3.5.0-bin
-export M2=$M2_HOME/bin
-export PATH=$M2:$PATH
-mvn -version
-
 #install wildfly
 cd ~
 echo "wildfly installing..."
