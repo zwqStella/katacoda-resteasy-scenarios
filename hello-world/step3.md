@@ -13,7 +13,7 @@ Then we should deploy the archive into Wildfly and start it.
 Open a new terminal and execute
 
 
-`standalone.sh`{{execute}}
+`~/wildfly-11.0.0.Final/bin/standalone.sh`{{execute}}
 
 
 Now our application is successfully deployed, we can try it by using a simple wget command.
@@ -24,3 +24,6 @@ Now our application is successfully deployed, we can try it by using a simple wg
 
 
 "welcome" is what we got from server.
+
+
+For more complex requests, we need to establish a client to send them.
