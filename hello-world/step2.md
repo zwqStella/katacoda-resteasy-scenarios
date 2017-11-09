@@ -11,7 +11,7 @@ Resource class is the most complex part because it bears most of the actions to 
 
 
 Except for the entity in request body, many other information could be passed to server through all kinds of parameters. Path parameter is the most common one among them. @PathParam allows you to inject the value of named URI path parameters that were defined in @Path expressions. Regular expressions can be used to describe the format of this parameter. When you have a huge number of methods, this is a good practice to reduce ambiguousness.
-```java
+```Java
 @GET
 @Path("{id : \\d+}")
 //defines a param named "id", which is an integer
