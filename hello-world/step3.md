@@ -20,8 +20,9 @@ Open a new terminal and execute
 Now our application is successfully deployed, we can try it by using a simple wget command.
 
 
-`wget -q http://localhost:8080/zoo/animals/hello`{{execute}}
-`cat hello`{{execute}}
+`cd /tmp
+wget -q http://localhost:8080/zoo/animals/hello
+cat hello`{{execute}}
 
 
 "welcome" is what we got from server.

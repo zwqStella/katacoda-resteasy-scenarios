@@ -3,10 +3,10 @@ Java API for RESTful Web Services (JAX-RS) is a Java programming language API sp
 # Prepare the environment
 
 What we need includes: 
-* **Java** 
-* **Maven (3.0.4 or higher)**
-* **Web Container**
-* **Resteasy**
+* Java
+* Maven (3.0.4 or higher)
+* Web Container
+* Resteasy
 
 
 WildFLy is the best choice for web container, in which Resteasy API is pre-installed. In this case, we'll use Java 8, Maven 3.5.0 and WildFly 11.0.0 Final as our environment.
@@ -18,7 +18,7 @@ The structure of a Resteasy web application project is in correspondence with a 
 In the pom.xml, you should add some dependencies to support you application.
 
 
-For the server end, the dependencies are:
+For the server end, the required dependencies are:
 ```
 <dependencies>
    <dependency>
@@ -37,7 +37,7 @@ For the server end, the dependencies are:
 ```
 
 
-For the client end, the dependencies are:
+For the client end, the required dependencies are:
 ```
 <dependencies>
    <dependency>
@@ -52,6 +52,7 @@ For the client end, the dependencies are:
    </dependency>
 </dependencies>
 ```
+*Resteasy-jackson-provider is used to support the transformation of application/json media type. Resteasy also has many other kinds of providers, see [resteasy providers](https://mvnrepository.com/search?q=resteasy+provider)*
 
 
 Now we have the basic environment to working on.
