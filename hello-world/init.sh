@@ -1,6 +1,6 @@
 #prepare source code
 cd ~/tutorial
-wget https://github.com/zwqStella/Resteasy-example-zoo/raw/master/zoo.zip
+wget https://github.com/zwqStella/Resteasy-example-zoo/raw/final/zoo.zip
 unzip -q -d server zoo.zip
 rm -f zoo.zip
 wget https://github.com/zwqStella/Resteasy-example-client/raw/master/client.zip

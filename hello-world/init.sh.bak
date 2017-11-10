@@ -32,6 +32,12 @@ sudo make install install-doc install-html install-info
 
 cd ~
 
-#get the example
+#prepare source code
 cd ~/tutorial
-git clone https://github.com/zwqStella/Resteasy-example-zoo
+wget https://github.com/zwqStella/Resteasy-example-zoo/raw/final/zoo.zip
+unzip -q -d server zoo.zip
+rm -f zoo.zip
+wget https://github.com/zwqStella/Resteasy-example-client/raw/master/client.zip
+unzip -q -d client client.zip
+rm -f client.zip
+
