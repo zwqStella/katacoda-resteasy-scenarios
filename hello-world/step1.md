@@ -1,6 +1,6 @@
 Java API for RESTful Web Services (JAX-RS) is a Java programming language API spec that provides support in creating web services according to the Representational State Transfer (REST) architectural pattern. Resteasy is a portable implementation of JAX-RS. In this tutorial, we'll use Resteasy to create a simple RESTful Web application and a client to invoke it.
 
-## Prepare the environment
+# Prepare the environment
 
 What we need includes: 
 * Java 

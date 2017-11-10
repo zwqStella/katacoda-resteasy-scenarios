@@ -1,7 +1,7 @@
 Now we have a completed Resteasy server project, we can use maven to build it into a war file.
 
 
-`cd ~/tutorial/zoo
+`cd ~/tutorial/server
 mvn clean install`{{execute}}
 
 

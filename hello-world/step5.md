@@ -15,6 +15,8 @@ Now we can try to use our client to interact with our REST application. In order
 </plugin>
 ```
 Then we can use mvn exec to lauch it.
+
+
 `cd ~/tutorial/client/
 mvn exec:exec`{{execute}}
 

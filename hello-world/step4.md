@@ -4,6 +4,7 @@ At the client end we also need a Domain class to support our actions. com.restfu
 At first we need a javax.ws.rs.client.Client instance to execute all our requests. Class ClientBuilder at the same package has a static method to build one for us. We can keep the instance and need not to create it every time.
 
 
+# Basic Usage
 Commonly, a request looks like this:
 ```Java
 String hello = client.target("http://localhost:8080/zoo/animals/hello").request().get(String.class);
