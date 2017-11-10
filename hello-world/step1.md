@@ -3,10 +3,10 @@ Java API for RESTful Web Services (JAX-RS) is a Java programming language API sp
 # Prepare the environment
 
 What we need includes: 
-* Java 
-* Maven (3.0.4 or higher)
-* Web Container
-* Resteasy
+* **Java** 
+* **Maven (3.0.4 or higher)**
+* **Web Container**
+* **Resteasy**
 
 
 WildFLy is the best choice for web container, in which Resteasy API is pre-installed. In this case, we'll use Java 8, Maven 3.5.0 and WildFly 11.0.0 Final as our environment.

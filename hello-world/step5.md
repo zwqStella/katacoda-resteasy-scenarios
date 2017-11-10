@@ -18,6 +18,7 @@ Then we can use mvn exec to lauch it.
 
 
 `cd ~/tutorial/client/
+mvn clean install
 mvn exec:exec`{{execute}}
 
 We can test all the methods in our AnimalResource class. And now you can edit both server and client codes to turn this into your own application.
