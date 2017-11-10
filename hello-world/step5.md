@@ -15,6 +15,7 @@ Now we can try to use our client to interact with our REST application. In order
 </plugin>
 ```
 Then we can use mvn exec to lauch it.
-`mvn exec:exec`{{execute}}
+`cd ~/tutorial/client/
+mvn exec:exec`{{execute}}
 
 We can test all the methods in our AnimalResource class. And now you can edit both server and client codes to turn this into your own application.

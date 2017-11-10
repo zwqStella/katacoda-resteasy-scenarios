@@ -1,13 +1,14 @@
 Now we have a completed Resteasy server project, we can use maven to build it into a war file.
 
 
-`mvn clean install`{{execute}}
+`cd ~/tutorial/zoo
+mvn clean install`{{execute}}
 
 
 Then we should deploy the archive into Wildfly and start it.
 
 
-`cp target/zoo.war ${WILDFLY}/standalone/deployments/`{{execute}}
+`cp target/zoo.war ~/wildfly-11.0.0.Final/standalone/deployments/`{{execute}}
 
 
 Open a new terminal and execute
