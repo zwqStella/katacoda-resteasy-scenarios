@@ -17,8 +17,12 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "server/pom.xml"
+  ]
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "icon": "fa-java"
   },
   "backend": {
     "imageid": "java8"
