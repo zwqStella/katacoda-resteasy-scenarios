@@ -18,26 +18,24 @@ The structure of a Resteasy web application project is in correspondence with a 
 In the pom.xml, you should add some dependencies to support you application.
 
 
-For the server end, the required dependencies are:
+Dependencies required by server:
 ```
 <dependencies>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jaxrs</artifactId>
       <version>4.0.0-SNAPSHOT</version>
-      <scope>provided</scope>
    </dependency>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-servlet-initializer</artifactId>
       <version>4.0.0-SNAPSHOT</version>
-      <scope>provided</scope>
    </dependency>
 </dependencies>
 ```
 
 
-For the client end, the required dependencies are:
+Dependencies required by client:
 ```
 <dependencies>
    <dependency>
