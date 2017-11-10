@@ -17,9 +17,6 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "server/pom.xml"
-  ]
   "environment": {
     "uilayout": "editor-terminal",
     "icon": "fa-java"

@@ -11,7 +11,7 @@ Then we should deploy the archive into Wildfly and start it.
 `cp target/zoo.war ~/wildfly-11.0.0.Final/standalone/deployments/`{{execute}}
 
 
-Open a new terminal and execute
+**Open a new terminal** and execute
 
 
 `~/wildfly-11.0.0.Final/bin/standalone.sh`{{execute}}
