@@ -1,5 +1,3 @@
-Java API for RESTful Web Services (JAX-RS) is a Java programming language API spec that provides support in creating web services according to the Representational State Transfer (REST) architectural pattern. Resteasy is a portable implementation of JAX-RS. In this tutorial, we'll use Resteasy to create a simple RESTful Web application and a client to invoke it.
-
 # Prepare the environment
 
 What we need includes: 
@@ -9,7 +7,7 @@ What we need includes:
 * Resteasy
 
 
-WildFLy is the best choice for web container, in which Resteasy API is pre-installed. In this case, we'll use Java 8, Maven 3.5.0 and WildFly 11.0.0 Final as our environment.
+WildFLy is the best choice for web container, in which Resteasy is pre-installed. In this case, we'll use Java 8, Maven 3.5.0 and WildFly 11.0.0 Final as our environment.
 
 
 The structure of a Resteasy web application project is in correspondence with a maven web project. And it is shown in the editor in the right.
@@ -18,18 +16,27 @@ The structure of a Resteasy web application project is in correspondence with a 
 In the pom.xml, you should add some dependencies to support you application.
 
 
+Define the version of Resteasy used.
+```
+<properties>
+   <resteasy.version>3.1.4.Final</resteasy.version>
+</properties>
+```
+
+
+
 Dependencies required by server:
 ```
 <dependencies>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jaxrs</artifactId>
-      <version>4.0.0-SNAPSHOT</version>
+      <version>${resteasy.version}</version>
    </dependency>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-servlet-initializer</artifactId>
-      <version>4.0.0-SNAPSHOT</version>
+      <version>${resteasy.version}</version>
    </dependency>
 </dependencies>
 ```
@@ -41,12 +48,12 @@ Dependencies required by client:
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-client</artifactId>
-      <version>4.0.0-SNAPSHOT</version>
+      <version>${resteasy.version}</version>
    </dependency>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jackson-provider</artifactId>
-      <version>2.3.2.Final</version>
+      <version>${resteasy.version}</version>
    </dependency>
 </dependencies>
 ```

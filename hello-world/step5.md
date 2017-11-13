@@ -3,13 +3,13 @@ Now we can try to use our client to interact with our REST application. In order
 <plugin>
    <groupId>org.codehaus.mojo</groupId>
    <artifactId>exec-maven-plugin</artifactId>
-   <version>1.2.1</version>
+   <version>1.6.0</version>
    <configuration>
       <executable>java</executable>
       <arguments>
          <argument>-classpath</argument>
          <classpath />
-         <argument>com.restfully.client.Main</argument>
+         <argument>org.jboss.resteasy.katacoda_example_zoo.client.AnimalClient</argument>
       </arguments>
    </configuration>
 </plugin>
