@@ -32,14 +32,17 @@ Dependencies required by server:
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jaxrs</artifactId>
       <version>${resteasy.version}</version>
+      <scope>provided</scope>
    </dependency>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-servlet-initializer</artifactId>
       <version>${resteasy.version}</version>
+      <scope>provided</scope>
    </dependency>
 </dependencies>
 ```
+For the jars belowed have been included in Wildfly, it is a wise decision to set the scope as "provided" to minimize the war file.
 
 
 Dependencies required by client:
@@ -49,11 +52,13 @@ Dependencies required by client:
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-client</artifactId>
       <version>${resteasy.version}</version>
+      <scope>test</scope>
    </dependency>
    <dependency>
       <groupId>org.jboss.resteasy</groupId>
       <artifactId>resteasy-jackson-provider</artifactId>
       <version>${resteasy.version}</version>
+      <scope>test</scope>
    </dependency>
 </dependencies>
 ```

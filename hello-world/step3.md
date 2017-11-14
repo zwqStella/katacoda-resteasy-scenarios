@@ -19,9 +19,7 @@ Then we should deploy the archive into Wildfly and start it.
 Now our application is successfully deployed, we can try it by using a simple wget command.
 
 
-`cd /tmp
-wget -q http://localhost:8080/zoo/animals/hello
-cat hello`{{execute}}
+`curl http://localhost:8080/zoo/animals/hello`{{execute}}
 
 
 "welcome" is what we got from server.

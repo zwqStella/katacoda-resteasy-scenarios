@@ -5,6 +5,7 @@ Now we can try to use our client to interact with our REST application. In order
    <artifactId>exec-maven-plugin</artifactId>
    <version>1.6.0</version>
    <configuration>
+      <classpathScope>test</classpathScope>
       <executable>java</executable>
       <arguments>
          <argument>-classpath</argument>
