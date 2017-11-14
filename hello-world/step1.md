@@ -42,7 +42,7 @@ Dependencies required by server:
    </dependency>
 </dependencies>
 ```
-For the jars belowed have been included in Wildfly, it is a wise decision to set the scope as "provided" to minimize the war file.
+For the jars above have been included in Wildfly, it is a wise decision to set the scope as "provided" to minimize the war file.
 
 
 Dependencies required by client:
@@ -62,6 +62,9 @@ Dependencies required by client:
    </dependency>
 </dependencies>
 ```
+Here we use scope "test" to support the execution maven exec plugin.
+
+
 *Resteasy-jackson-provider is used to support the transformation of application/json media type. Resteasy also has many other kinds of providers, see [resteasy providers](https://mvnrepository.com/search?q=resteasy+provider)*
 
 
