@@ -10,6 +10,10 @@ What we need includes:
 WildFLy is the best choice for web container, in which Resteasy is pre-installed. In this case, we'll use Java 8, Maven 3.5.0 and WildFly 11.0.0 Final as our environment.
 
 
+Start WildFly:
+`~/wildfly-11.0.0.Final/bin/standalone.sh&`{{execute}}
+
+
 The structure of a Resteasy web application project is in correspondence with a maven web project. And it is shown in the editor in the right.
 
 
