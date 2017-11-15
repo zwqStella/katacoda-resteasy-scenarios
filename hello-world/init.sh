@@ -1,8 +1,10 @@
 #prepare source code
 cd ~/tutorial
-wget https://github.com/zwqStella/Resteasy-example-zoo/raw/final/zoo.zip
-unzip -q zoo.zip
-rm -f zoo.zip
+wget https://github.com/zwqStella/katacoda_example_zoo/archive/1.0.zip
+unzip -q katacoda_example_zoo-1.0.zip
+rm -f katacoda_example_zoo-1.0.zip
+mv -r katacoda_example_zoo-1.0/* .
+rmdir katacoda_example_zoo-1.0
 
 #install wildfly
 cd ~
