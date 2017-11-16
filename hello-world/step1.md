@@ -45,7 +45,7 @@ Dependencies required by server:
 For the jars above have been included in Wildfly, it is a wise decision to set the scope as "provided" to minimize the war file.
 
 
-Dependencies required by client or test:
+Dependencies required by client:
 ```
 <dependencies>
    <dependency>

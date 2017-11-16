@@ -4,7 +4,7 @@ Now we have a completed Resteasy server project, we can use maven to build it in
 `mvn clean install`{{execute}}
 
 
-WildFly Maven Plugin is added to deploy the application and start the WildFLy server on mvn install.
+In addition to this, WildFly Maven Plugin is added to profile "deploy-war", in order to deploy the application and start the WildFLy server on mvn install.
 ```
 <plugins>
    <plugin>
@@ -37,6 +37,11 @@ WildFly Maven Plugin is added to deploy the application and start the WildFLy se
    </plugin>
 </plugins>
 ```
+When using this profile, the Wildfly server would be started on pakage phase. Then the war file would be deployed to it before integration-test phase. And in the end, the server would be stoped automaticaly.
+
+
+`mvn clean install -P deploy-war`{{execute}}
+
 
 
 Now our application could be successfully built and deployed. But we have no access to it. To interact with it, we need to use Resteasy client API.
