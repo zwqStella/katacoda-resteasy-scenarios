@@ -1,4 +1,10 @@
-Now we have a completed Resteasy server project, we can use maven to build it into a war file.
+First, upgrade the version of maven to 3.5.0.
+`source ~/.bashrc
+mvn -version`{{execute}}
+
+
+
+Now we can use maven to build it into a war file.
 
 
 `mvn clean install`{{execute}}
