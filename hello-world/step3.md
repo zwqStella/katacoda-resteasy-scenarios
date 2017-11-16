@@ -4,25 +4,34 @@ Now we have a completed Resteasy server project, we can use maven to build it in
 `mvn clean install`{{execute}}
 
 
-WildFly Maven Plugin is added into the pom.xml to deploy the application on mvn install
+WildFly Maven Plugin is added to deploy the application and start the WildFLy server on mvn install.
 ```
 <plugins>
    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <configuration>
-         <skip>true</skip>
-      </configuration>
+      <groupId>org.wildfly.plugins</groupId>
+      <artifactId>wildfly-maven-plugin</artifactId>
+      <version>1.2.1.Final</version>
       <executions>
          <execution>
-            <id>surefire-it</id>
-            <phase>integration-test</phase>
+            <id>start</id>
+            <phase>package</phase>
             <goals>
-               <goal>test</goal>
+               <goal>start</goal>
             </goals>
-            <configuration>
-               <skip>false</skip>
-            </configuration>
+         </execution>
+         <execution>
+            <id>deploy</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+               <goal>deploy-only</goal>
+            </goals>
+         </execution>
+         <execution>
+            <id>shutdown</id>
+            <phase>install</phase>
+            <goals>
+               <goal>shutdown</goal>
+            </goals>
          </execution>
       </executions>
    </plugin>
@@ -30,13 +39,4 @@ WildFly Maven Plugin is added into the pom.xml to deploy the application on mvn 
 ```
 
 
-Now our application is successfully built and deployed, we can try it by using a simple curl command.
-
-
-`curl http://localhost:8080/zoo/animals/hello`{{execute}}
-
-
-"welcome" is what we got from server.
-
-
-For more complex requests, we need to establish a client to send them.
+Now our application could be successfully built and deployed. But we have no access to it. To interact with it, we need to use Resteasy client API.
