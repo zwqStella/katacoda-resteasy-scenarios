@@ -1,13 +1,10 @@
+Since the WildFLy server was started in the current terminal, we should **Open a new terminal** to avoid confusion.
+
+
 Now we can use maven to build it into a war file.
 
 
 `mvn clean install`{{execute}}
-
-
-**Open a new terminal** and start WildFly standalone server.
-
-
-`standalone.sh&`{{execute}}
 
 
 Deploy "zoo.war" to server.
