@@ -1,3 +1,9 @@
+Lauch the WildFly server.
+
+
+`~/wildfly-11.0.0.Final/bin/standalone.sh`{{execute}}
+
+
 Since the WildFLy server was started in the current terminal, we should **Open a new terminal** to avoid confusion.
 
 
