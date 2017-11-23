@@ -1,5 +1,5 @@
 ### About Scenarios
-Interactive katacoda scenarios are supported by katacoda.com, an interactive technical learning platform for software engineers. On browser-based scenarios, you can learn the latest technologies without any worries about environments.
+>Interactive katacoda scenarios are supported by katacoda.com, an interactive technical learning platform for software engineers. On browser-based scenarios, you can learn the latest technologies without any worries about environments.
 
 
 ### About RESTEasy
