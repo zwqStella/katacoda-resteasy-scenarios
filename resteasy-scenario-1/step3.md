@@ -19,7 +19,7 @@ Deploy "zoo.war" to server.
 `cp target/zoo.war ~/wildfly-11.0.0.Final/standalone/deployments/`{{execute}}
 
 
-Now our application could be successfully built and deployed. Use a simple curl command to test it.
+Now our application could be successfully built and deployed. CLick on the link below to view the welcome message from port 8080.
 
 
-`curl http://localhost:8080/zoo/animals/hello`{{execute}}
+[hello](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/zoo/animals/hello)
