@@ -1,0 +1,6 @@
+`@GET
+@Path("{name}")
+@Produces("text/plain")
+public String sayHello(@PathParam("name") String name) {
+    return "welcome " + name +"/n";
+}`{{copy}}

@@ -22,3 +22,6 @@ public Animal getAnimal(@PathParam("id")int id) {
 }
 ```
 Query parameter and Matrix parameter are also used in this example. @QueryParam and @MatrixParam are used to extract these two kinds of parameters out of requests. But they shouldn't be defined in @Path annotation as path parameter. [Learn more about parameters injection](http://docs.jboss.org/resteasy/docs/3.1.4.Final/userguide/html_single/index.html#_PathParam)
+
+# Your Own Code
+Open file src/main/java/org/jboss/resteasy/katacoda_example_zoo/server/services/HelloService.java and add a new method here. We are going to create a method which accept a name via path parameter and return welcome to the name. The http verb we need here is get.
