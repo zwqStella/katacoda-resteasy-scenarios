@@ -1,4 +1,4 @@
-Now we can try to use our client to interact with our REST application. In order to make the client easier to use, we can add an exec maven plugin into it.
+Now we can try to use our client to interact with our REST application. In order to make the client easier to use, an exec maven plugin was added into it.
 ```
 <plugins>
    <plugin>

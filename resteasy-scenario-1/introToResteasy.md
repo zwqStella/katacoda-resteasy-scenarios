@@ -13,7 +13,7 @@ WildFLy is the best choice for web container, in which Resteasy is pre-installed
 The structure of a Resteasy web application project is in correspondence with a maven web project. And it is shown in the editor in the right.
 
 
-In the pom.xml, you should add some dependencies to support you application.
+In the pom.xml, some dependencies are already added to support the application.
 
 
 Define the version of Resteasy used.
